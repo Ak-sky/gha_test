@@ -1,1 +1,3 @@
-console.log("HELLO SKY")
+const person = process.env.INPUT_PERSON
+
+console.log(`HELLO ${person}`)

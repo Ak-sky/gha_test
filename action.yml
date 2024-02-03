@@ -1,5 +1,10 @@
 name: sky action 1
 description: This action is demo
+inputs:
+  person:
+    description: 'To Greet'
+    required: true
+    default: 'world'
 runs:
   using: node16
   main: src/index.js
