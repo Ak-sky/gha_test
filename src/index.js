@@ -1,3 +1,3 @@
 const person = process.env.INPUT_PERSON
 
-console.log(`HELLO ${person}`)
+console.log(`HELLO Welcome ${person}`)
